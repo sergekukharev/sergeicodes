@@ -1,0 +1,4 @@
+baseURL = 'https://sergeicodes.com/'
+languageCode = 'en-us'
+title = 'Sergei Codes - blog about software engineering, complexity, people management'
+theme = "tale"
