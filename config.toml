@@ -2,3 +2,32 @@ baseURL = 'https://sergeicodes.com/'
 languageCode = 'en-us'
 title = 'Sergei Codes'
 theme = "tale"
+
+[deployment]
+
+[[deployment.targets]]
+# An arbitrary name for this target.
+name = "aws-s3"
+URL = "s3://sergeicodes.com?region=us-east-1"
+cloudFrontDistributionID = "E29LXIR6SZNXKI"
+
+[[deployment.matchers]]
+# Cache static assets for 1 year.
+pattern = "^.+\\.(js|css|svg|ttf)$"
+cacheControl = "max-age=31536000, no-transform, public"
+gzip = true
+
+[[deployment.matchers]]
+pattern = "^.+\\.(png|jpg)$"
+cacheControl = "max-age=31536000, no-transform, public"
+gzip = false
+
+[[deployment.matchers]]
+# Set custom content type for /sitemap.xml
+pattern = "^sitemap\\.xml$"
+contentType = "application/xml"
+gzip = true
+
+[[deployment.matchers]]
+pattern = "^.+\\.(html|xml|json)$"
+gzip = true
