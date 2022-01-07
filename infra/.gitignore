@@ -1,0 +1,7 @@
+.gradle
+build
+
+.env
+
+cdk.out
+cdk.context.json

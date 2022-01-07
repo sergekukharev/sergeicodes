@@ -1,0 +1,39 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'com.github.johnrengelman.shadow' version '7.1.0'
+}
+
+group 'com.sergeicodes.infra'
+
+repositories {
+    mavenCentral()
+}
+
+application {
+    mainClassName = 'com.sergeicodes.infra.InfraApp'
+}
+
+dependencies {
+    implementation 'software.amazon.awscdk:aws-cdk-lib:2.3.0'
+    implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.13.1'
+    implementation 'io.github.cdimascio:dotenv-java:2.2.3'
+
+    // Testing
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.8.2'
+    testImplementation group: 'org.hamcrest', name: 'hamcrest-all', version: '1.3'
+}
+
+task cdkSynth(type:Exec) {
+    dependsOn shadowJar
+    commandLine = ["cdk", "synth"]
+}
+
+build.finalizedBy(cdkSynth)
+
+test {
+    useJUnitPlatform()
+    testLogging {
+        events "passed", "skipped", "failed"
+    }
+}

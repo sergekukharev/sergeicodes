@@ -1,0 +1,3 @@
+{
+  "app": "java -jar build/libs/infra-all.jar"
+}
