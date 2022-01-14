@@ -6,6 +6,9 @@ theme = "tale"
 [Author]
 name = "Sergei Kukhariev"
 
+[params]
+  mainSections = ['posts']
+
 [deployment]
 
 [[deployment.targets]]
