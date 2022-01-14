@@ -3,6 +3,9 @@ languageCode = 'en-us'
 title = 'Sergei Codes'
 theme = "tale"
 
+[Author]
+name = "Sergei Kukhariev"
+
 [deployment]
 
 [[deployment.targets]]
