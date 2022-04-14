@@ -2,6 +2,7 @@ baseURL = 'https://sergeicodes.com/'
 languageCode = 'en-us'
 title = 'Sergei Codes'
 theme = "tale"
+uglyurls = true
 
 [Author]
 name = "Sergei Kukhariev"
@@ -15,7 +16,7 @@ name = "Sergei Kukhariev"
 # An arbitrary name for this target.
 name = "aws-s3"
 URL = "s3://sergeicodes.com?region=us-east-1"
-cloudFrontDistributionID = "E29LXIR6SZNXKI"
+cloudFrontDistributionID = "E1FKW7X241BTLM"
 
 [[deployment.matchers]]
 # Cache static assets for 1 year.
