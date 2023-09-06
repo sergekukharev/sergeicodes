@@ -6,15 +6,25 @@ title: About Me
 
 # Hi! I'm Sergei (he/him). I'm a software engineer.
 
-I'm also an Engineering Manager passionate about success of the people I work with. Father and Partner, Bookworm 📚,
-student of complexity, long-distance trekker ⛰. Based in Rio de Janeiro(🇧🇷), before Berlin(🇩🇪), and Kyiv(🇺🇦).
+I also had some years of experience as an Engineering Manager passionate about success of the people I work with. 
+Father and Partner, Bookworm 📚, student of complexity, long-distance trekker ⛰. 
+Based in São Paulo(🇧🇷), before São Paulo(🇧🇷), Berlin(🇩🇪), and Kyiv(🇺🇦).
 
-I'm currently building [staticoon](https://staticoon.com) - a bot that automates refactoring and improves your codebase over time.
-Before - [GetYourGuide](https://inside.getyourguide.com/) and other startups for the last 10 years.
+I'm currently working as a Staff Engineer at [Mixmax](https://www.mixmax.com/), where my goal is to transition the 
+company away from our distributed monolith and simplify our stack and developer experience while decreasing lead times 
+on shipping great features to our customers.
+
+Ex:
+- [staticoon](https://staticoon.com) - a bot that automates refactoring and improves your codebase over time. I'm a
+  proud founder of this failed startup.
+- [GetYourGuide](https://inside.getyourguide.com/) 
+- and some other startups for the last 12 years.
 
 ## Where to find me
-* My [Twitter](https://twitter.com/sergei_tweets) DMs are always open
-* Otherwise, I'm on [Github](https://github.com/sergekukharev/), [LinkedIn](https://www.linkedin.com/in/sergekukharev/), and [Goodreads](https://www.goodreads.com/user/show/63030634-sergei-kukharev).
+* My [Twitter](https://twitter.com/sergei_tweets) DMs are always open, although with recent drama I'm not sure for how
+  long you can find me there.
+* Otherwise, I'm on [Github](https://github.com/sergekukharev/), [LinkedIn](https://www.linkedin.com/in/sergekukharev/), 
+  and [Goodreads](https://www.goodreads.com/user/show/63030634-sergei-kukharev).
 
 ## How do I pronounce your name?
 Most of the people call me Sergei.
