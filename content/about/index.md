@@ -8,7 +8,7 @@ title: About Me
 
 I also had some years of experience as an Engineering Manager passionate about success of the people I work with. 
 Father and Partner, Bookworm 📚, student of complexity, long-distance trekker ⛰. 
-Based in São Paulo(🇧🇷), before São Paulo(🇧🇷), Berlin(🇩🇪), and Kyiv(🇺🇦).
+Based in São Paulo(🇧🇷), before Rio de Janeiro(🇧🇷), Berlin(🇩🇪), and Kyiv(🇺🇦).
 
 I'm currently working as a Staff Engineer at [Mixmax](https://www.mixmax.com/), where my goal is to transition the 
 company away from our distributed monolith and simplify our stack and developer experience while decreasing lead times 
